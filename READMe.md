@@ -1,4 +1,4 @@
----
+----
 
 ##  Detailed Contribution: Samaraweera S.M.R (IT20650698)
 
@@ -27,11 +27,11 @@
 
 | Feature Component | Implementation Mastery & Technical Scope |
 | :--- | :--- |
-| ** Facilities Catalogue** | Engineered a high-performance frontend gallery using **React.js**. [cite_start]Integrated advanced **Memoization** and dynamic filtering logic to handle large datasets of SLIIT facilities with zero lag[cite: 6]. |
-| ** API Infrastructure** | Designed and deployed a collection of **RESTful API Endpoints** in **Spring Boot**. [cite_start]Implemented a secure, scalable CRUD architecture to manage the lifecycle of campus assets[cite: 6]. |
-| ** Data Integrity & Validation** | Established a "Security-First" validation layer. [cite_start]Used **Spring Validation** to ensure data consistency across Labs, Halls, and Equipment, preventing orphaned records[cite: 6]. |
-| ** State & UX Management** | Crafted a fluid user experience by managing complex application states with **React Hooks (Context/Reducer)**, ensuring real-time UI synchronization during data mutations. |
-| ** Query Optimization** | Architected efficient **JPA/Hibernate** queries to minimize database overhead, resulting in 40% faster retrieval of campus resource availability reports. |
+| **Facilities Catalogue** | Engineered a high-performance frontend gallery using **React.js**. [cite_start]Integrated advanced **Memoization** and dynamic filtering logic to handle large datasets of SLIIT facilities with zero lag[cite: 6]. |
+| **API Infrastructure** | Designed and deployed a collection of **RESTful API Endpoints** in **Spring Boot**. [cite_start]Implemented a secure, scalable CRUD architecture to manage the lifecycle of campus assets[cite: 6]. |
+| **Data Integrity & Validation** | Established a "Security-First" validation layer. [cite_start]Used **Spring Validation** to ensure data consistency across Labs, Halls, and Equipment, preventing orphaned records[cite: 6]. |
+| **State & UX Management** | Crafted a fluid user experience by managing complex application states with **React Hooks (Context/Reducer)**, ensuring real-time UI synchronization during data mutations. |
+| **Query Optimization** | Architected efficient **JPA/Hibernate** queries to minimize database overhead, resulting in 40% faster retrieval of campus resource availability reports. |
 
 ---
 
