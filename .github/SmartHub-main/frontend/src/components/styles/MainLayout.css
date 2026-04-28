@@ -1,0 +1,48 @@
+.sc-main-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--sc-bg);
+}
+
+.sc-layout-container {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.sc-main-content {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: margin-left 0.3s ease;
+  background-color: var(--sc-bg);
+}
+
+@media (max-width: 768px) {
+  .sc-layout-container {
+    position: relative;
+  }
+
+  .sc-main-content {
+    width: 100%;
+  }
+}
+
+/* Scrollbar styling */
+.sc-main-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sc-main-content::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sc-main-content::-webkit-scrollbar-thumb {
+  background: var(--sc-border);
+  border-radius: var(--sc-radius);
+}
+
+.sc-main-content::-webkit-scrollbar-thumb:hover {
+  background: var(--sc-muted);
+}
